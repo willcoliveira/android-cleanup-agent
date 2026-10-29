@@ -1,6 +1,6 @@
 # android-cleanup-agent
 
-Clean up and speed up an Android **phone, tablet or TV** over adb, **without root**.
+Clean up and speed up an Android **phone, tablet, TV, TV box or watch** over adb, **without root**.
 It audits the device, asks how you use it, proposes a plan you sign off item by
 item, applies it with health checks, and shows the before/after numbers. Every
 change is logged and can be undone.
@@ -30,7 +30,8 @@ Wakes the device most often
   (found on PATH, or in the Android Studio SDK folder)
 - A device running Android 8.0 or newer with USB debugging or Wireless debugging on.
   Phones, tablets, Android TV, Google TV and TVs that run tablet Android are supported.
-  Amazon Fire TV is not.
+  Also tested and working on Wear OS smartwatches and Android TV boxes.
+  Amazon Fire TV is not supported.
 - macOS or Linux (Windows through WSL)
 
 ## Install
